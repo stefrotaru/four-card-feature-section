@@ -8,38 +8,49 @@
   
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  <main class="container">
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+    <div class="top">
+      <h1 class="top__title">Reliable, efficient delivery</h1>
+      <h2 class="top__poweredby">Powered by Technology</h2>
+      <p class="top__description">Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful</p>
+    </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+    <div class="grid">
+      <div class="grid__box left">
+        <h3 class="grid__box__title">Supervisor</h3>
+        <p class="grid__box__description">Monitors activity to identify project roadblocks</p>
+        <img src="./images/icon-supervisor.svg" alt="img-supervisor" class="grid__box__logo">
+      </div>
+      <div class="grid__box mid-top">
+        <h3 class="grid__box__title">Team Builder</h3>
+        <p class="grid__box__description">Scans our talent network to create the optimal team for your project</p>
+        <img src="./images/icon-team-builder.svg" alt="img-team-builder" class="grid__box__logo">
+      </div>
+      <div class="grid__box mid-bottom">
+        <h3 class="grid__box__title">Karma</h3>
+        <p class="grid__box__description">Regularly evaluates our talent to ensure quality</p>
+        <img src="./images/icon-karma.svg" alt="img-karma" class="grid__box__logo">
+      </div>
+      <div class="grid__box right">
+        <h3 class="grid__box__title">Calculator</h3>
+        <p class="grid__box__description">Uses data from past projects to provide better delivery estimates</p>
+        <img src="./images/icon-calculator.svg" alt="img-calculator" class="grid__box__logo">
+      </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
+    </div>
+  </main>
+    
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
